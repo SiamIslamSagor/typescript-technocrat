@@ -28,7 +28,7 @@
   };
 
   // learn rest operator
-  const greetFriends = (...friends) => {
+  const greetFriends = (...friends: string[]) => {
     friends.forEach((frnd: string) => console.log(`Hi ${frnd}`));
   };
 
