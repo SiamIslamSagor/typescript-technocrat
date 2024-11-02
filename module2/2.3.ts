@@ -5,6 +5,10 @@
   /*           Introduction to generics           */
   /* -------------------------------------------- */
 
+  /* -------- ! GENERICS TYPES USING TYPE ------- */
+  /* -------------------------------------------- */
+  /* -------------------------------------------- */
+
   /* ----------- ARRAY USING GENERICS ----------- */
 
   type GenericArray1 = Array<number>;
@@ -24,10 +28,28 @@
 
   /* ------ ARRAY OF OBJECT USING GENERICS ------ */
 
-  const user: Array<{
+  const user: GenericArray2<{
     name: string;
     age: number;
   }> = [
+    {
+      name: "siam",
+      age: 12,
+    },
+    {
+      name: "sagor",
+      age: 44,
+    },
+  ];
+
+  /* -------------------------------------------- */
+
+  interface User {
+    name: string;
+    age: number;
+  }
+
+  const user2: GenericArray2<User> = [
     {
       name: "siam",
       age: 12,
