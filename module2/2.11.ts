@@ -42,7 +42,7 @@
     contactNo: "01799****",
   };
 
-  person1.name = "sdf";
+  //   person1.name = "sdf";
 
   /* ------------ RECORD TYPE UTILITY ----------- */
 

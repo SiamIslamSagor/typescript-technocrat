@@ -15,7 +15,7 @@
 
   // NULLISH COALESCING OPERATOR
 
-  // if we have to make decision depend on null || undefined the we will use nullish coalescing operator
+  // if we have to make decision depend on null or undefined the we will use nullish coalescing operator
   let isAuthenticated = "";
 
   const result1 = isAuthenticated ?? "Guest";
